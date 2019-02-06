@@ -1,0 +1,30 @@
+body{
+  background-color: #2f496e;
+}
+
+.title{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.name{
+  font-size:750%;
+  font-family: 'Staatliches', cursive;
+  color: #f4eade;
+}
+
+.links{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.fas, .fab{
+  font-size:350%;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: #ed8c72;
+}
