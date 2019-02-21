@@ -1,29 +1,56 @@
-body{
-  background-color: #2f496e;
-}
-
-.title{
-  margin: auto;
-  width: 50%;
-  text-align: center;
-}
-
-.name{
-  font-size:750%;
+body {
+  background-color: #d1c0c0;
   font-family: 'Staatliches', cursive;
-  color: #f4eade;
-}
-
-.links{
-  display: flex;
   margin: auto;
   width: 50%;
-  text-align: center;
+  text-align: center
+}
+
+body div {
+  color: #423f3c;
+}
+
+.title {
+}
+
+.name {
+  font-size: 750%;
+  margin-bottom: 0;
+}
+
+.subname {
+  font-size: 500%;
+  margin-top: 0;
+  text-align: right;
+}
+
+.calendar {
+  margin-bottom: 50px;
+}
+
+.calendar small {
+  font-size: 50%;
+}
+
+.calendar p {
+  margin-bottom: 0;
+}
+
+.event-primary {
+  font-size: 400%;
+}
+
+.event-secondary {
+  font-size: 300%;
+}
+
+.links {
+  display: flex;
   justify-content: space-around;
 }
 
-.fas, .fab{
-  font-size:350%;
+.links a {
+  font-size: 250%;
   margin-right: 10%;
   margin-left: 10%;
   color: #ed8c72;
