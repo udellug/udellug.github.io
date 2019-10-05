@@ -10,6 +10,10 @@ body div {
   color: #423f3c;
 }
 
+li {
+    list-style: none;
+}
+
 .title {
 }
 
@@ -36,12 +40,15 @@ body div {
   margin-bottom: 0;
 }
 
-.event-primary {
-  font-size: 400%;
+.event {
+    display: block;
+    font-size: 35px;
+    margin: 0 0 30px;
 }
 
-.event-secondary {
-  font-size: 300%;
+.event-info {
+    display: block;
+    font-size: 25px;
 }
 
 .links {
