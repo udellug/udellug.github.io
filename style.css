@@ -11,10 +11,7 @@ body div {
 }
 
 li {
-    list-style: none;
-}
-
-.title {
+  list-style: none;
 }
 
 .name {
@@ -41,14 +38,14 @@ li {
 }
 
 .event {
-    display: block;
-    font-size: 35px;
-    margin: 0 0 30px;
+  display: block;
+  font-size: 35px;
+  margin: 0 0 30px;
 }
 
 .event-info {
-    display: block;
-    font-size: 25px;
+  display: block;
+  font-size: 25px;
 }
 
 .links {
