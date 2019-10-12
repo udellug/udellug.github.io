@@ -14,12 +14,12 @@ body div {
 }
 
 .name {
-  font-size: 750%;
+  font-size: 400%;
   margin-bottom: 0;
 }
 
 .subname {
-  font-size: 500%;
+  font-size: 350%;
   margin-top: 0;
   text-align: right;
 }
@@ -37,11 +37,11 @@ body div {
 }
 
 .event-primary {
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .event-secondary {
-  font-size: 300%;
+  font-size: 250%;
 }
 
 .links {
