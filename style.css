@@ -15,12 +15,12 @@ li {
 }
 
 .name {
-  font-size: 750%;
+  font-size: 400%;
   margin-bottom: 0;
 }
 
 .subname {
-  font-size: 500%;
+  font-size: 350%;
   margin-top: 0;
   text-align: right;
 }
@@ -46,6 +46,13 @@ li {
 .event-info {
   display: block;
   font-size: 25px;
+
+.event-primary {
+  font-size: 300%;
+}
+
+.event-secondary {
+  font-size: 250%;
 }
 
 .links {
