@@ -10,25 +10,17 @@
   </head>
 
   <body>
-
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="calendar.js"></script>
+    <script src='https://apis.google.com/js/client.js?onload=handleClientLoad'></script>
     <div>
       <div class="title">
         <h1 class="name">
           UDEL Linux Users Group
         </h1>
       </div>
-      <div class="calendar">
-        <div class="event-primary">
-          <p>
-          Frankenstein, by Mary SHELLy
-          </p>
-          <small>18:00 20 Feb 2019, iSuites in Evans Hall</small>
-        </div>
-        <div class="event-secondary">
-          <p>Disk Formats</p>
-          <small>18:00 27 Feb 2019, iSuites in Evans Hall</small>
-        </div>
-      </div>
+      <h2>Upcoming Events:</h2>
+      <div id="calendar"></div>
       <div class="footer">
         <div class="links">
           <a href="https://github.com/udellug/" target="_blank">
