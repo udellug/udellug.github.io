@@ -30,7 +30,7 @@ li {
 }
 
 .calendar small {
-  font-size: 50%;
+  font-size: 50%;#
 }
 
 .calendar p {
@@ -60,9 +60,20 @@ li {
   justify-content: space-around;
 }
 
+a {
+  color: #5e663b;
+}
+
 .links a {
   font-size: 250%;
   margin-right: 10%;
   margin-left: 10%;
-  color: #ed8c72;
+}
+
+#officer-list {
+  padding: 0;
+}
+
+.left-list {
+  text-align: left;
 }
